@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f8f8;
 }
 
 :root {
@@ -79,7 +78,8 @@ body {
 
 .catalog {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  grid-template-columns: repeat(4, 200px);
   gap: 48px 46px;
   padding: 50px 40px;
 
